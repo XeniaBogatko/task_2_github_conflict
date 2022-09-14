@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 public class test1 {
     @Test
     void testFirst(){
-        Assertions.assertTrue(100 > 1);
+        Assertions.assertTrue(100 >= 1);
     }
     @Test
     void testSecond(){
-        Assertions.assertTrue(100 > 2);
+        Assertions.assertTrue(100 >= 2);
     }
 }
